@@ -42,6 +42,11 @@ body {
 	overflow: hidden;
 }
 
+
+
+
+
+
 /* Buttons */
 
 .btn {
@@ -93,6 +98,7 @@ body {
 
 .openmodal{
 	color: red;
+	border-color: red;
 }
 
 
@@ -125,13 +131,37 @@ body {
 }  
 
 
+#particles-js{
+	width: 100%;
+	height: 100%;
+}
+
+.nishiLabel{
+	top: 0;
+	left: 0;
+	position: absolute;
+	font-size: 6vw;
+	text-transform: uppercase;
+	pointer-events: none;
+	line-height: 1;
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
+
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
@@ -146,7 +176,8 @@ body {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 90%;
+    height: 500px;
 }
 
 /* The Close Button */
@@ -176,7 +207,7 @@ a {
 .demo-2 a {}
 .demo-2 .btn {}
 .demo-2 .btn:hover {}
-.demo-2 .trigger-headline { color: #fbe094; }
+.demo-2 .trigger-headline { color: #fbe094;}
 .demo-2 .github-icon { }
 
 .demo-3 a { color: #b5b5b5; }
