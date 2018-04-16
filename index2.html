@@ -16,17 +16,21 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link href="css/animate.css" rel="stylesheet">
-
+		<link href="animate.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/imagehover.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/opp.css" />
 		<script>
 		document.documentElement.className = 'js';
 		</script>
+
 	</head>
 	<body class="demo-2">
-		
+
+
+
 
 		<main>
-
 
 			<header class="codrops-header">
 
@@ -34,20 +38,59 @@
 				<!-- Trigger/Open The Modal -->
 				<p class="codrops-header__tagline">	
 
-					<button class="openmodal button">People</button>		
+				<button class="openmodal button">People</button>		
 
 				<!-- The Modal -->
 				<div class="modal myModal">
-
-
 
 				<!-- Modal content -->
 				<!-- PEOPLE NAVBAR CLICKED -->
 				<div class="modal-content">
 				<span class="close">&times;</span>
+				
 				<img src="img/people.jpg" style="width:80%;height:150px;">
-				<p>Some text in the Modal1</p>
-				<a class='example7' href="http://google.com">Outside Webpage (Iframe)</a>
+
+
+
+				<table id="row1People" style="width:100%">
+				  <tr>
+				  	
+				    <td><div data-tilt><a href="people/nishi.html"><img src="img/nishi.jpg" style="width: 250px; height: 250px;"></div></td>
+					
+
+				    
+				    <td><div data-tilt><a href="people/chid.html"><img src="img/chid.JPG" style="width: 250px; height: 250px;"></div></td> 
+
+				    <td><div data-tilt><a href="people/chid.html"><img src="img/chris.JPG" style="width: 250px; height: 250px;"></div></td>
+
+				  </tr>
+				  <tr>
+				    <td>​Akihiro Nishi</td>
+				    <td>Chidambaran Muthappan</td> 
+				    <td>​Chris German</td> 
+				  </tr>
+				</table>
+
+				<table id="row2People" style="width:100%">
+				  <tr>
+				  	
+				   <td><div data-tilt><a href="people/chid.html"><img src="img/lynn.jpg" style="width: 250px; height: 250px;"></div></td>
+
+					<td><div data-tilt><a href="people/chid.html"><img src="img/krish.jpg" style="width: 250px; height: 250px;"></div></td>
+
+					<td><div data-tilt><a href="people/chid.html"><img src="img/nishi.jpg" style="width: 250px; height: 250px;"></div></td>
+					
+				  </tr>
+				  <tr>
+				    <td>Lynn Hao Tran</td>
+				    <td>Krish Nallamalli</td> 
+				    <td>Akihiro Nishi</td>
+				  </tr>
+				</table>
+
+
+
+
 				</div>
 				</div>
 				</p>
@@ -64,7 +107,18 @@
 				<div class="modal-content">
 				<span class="close">&times;</span>
 				<img src="img/opportunities.jpg" style="width:80%;height:150px;">
+
+				<script type="text/javascript"  src="js/opp.js"></script>
 				<p>Some text in the Modal2</p>
+
+				<div class="box">
+					<p class="split">Animation is the process of creating the illusion of motion and shape change by means of the rapid display of a sequence of static images that minimally differ from each other. The illusion—as in motion pictures in general—is thought to rely on the phi phenomenon. Animators are artists who specialize in the creation of animation.
+				</p>
+					
+				</div>
+
+
+
 				</div>
 				</div>	
 				</p>
@@ -105,29 +159,39 @@
 				<p class="codrops-header__tagline">
 		
 				</p>			
-
-
 			</header>
+
 
 			<!-- Initial markup -->
 			<div class="segmenter" style="background-image: url(img/dktop.png)"></div>
-			
-			
+
 			<h2 class="trigger-headline trigger-headline--hidden">
 				<div id="particles-js">
 					<h2 class="nishiLabel">
-					<span>NISHI</span><span>I</span><span>S</span><span>H</span><span>I</span>
+					
+						<span>NISHI</span><span>I</span><span>S</span><span>H</span><span>I</span>
 					</h2>
+
 				</div>
 			</h2>
+
 
 			<button class="btn btn--trigger">Enter Website</button> 
 			
 
-		
 
 
 		</main>
+
+
+
+
+
+
+
+
+
+
 		<script type="text/javascript" src="particles/particles.js"></script>
 		<script type="text/javascript" src="particles/particles.min.js"></script>
 		<script type="text/javascript" src="particles/app.js"></script>
@@ -137,9 +201,12 @@
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/main.js"></script>
 
+		<script src="jquery.lettering.js"></script>
+		<script src="jquery.textillate.js"></script>
 
-
-
+		<script type="text/javascript" src="tilt.jquery.js"></script>
+		
+		<script type="text/javascript" src="js/index.js"></script>
 
 		<script>
 		(function() {
@@ -168,6 +235,7 @@
 							segmenter.animate();
 							headline.classList.remove('trigger-headline--hidden');
 							this.classList.add('btn--hidden');
+							this.classList.add('button');
 							//var down = document.getElementById("down");
 							//down.style.visibility = "visible";
 							//want to show rest of website when clicked.
@@ -195,15 +263,8 @@
 		    }
 
 		}
-		(".example7").colorbox({iframe:true, innerWidth:425, innerHeight:344});
 		</script>
 
-
-
-		<!-- For the cool buttons -->
-		<script type="text/javascript">
-
-		</script>
 
 	</body>
 </html>
