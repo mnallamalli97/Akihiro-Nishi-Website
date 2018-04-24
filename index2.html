@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 		<script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -20,14 +21,13 @@
 		<link rel="stylesheet" href="css/imagehover.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/opp.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<script>
 		document.documentElement.className = 'js';
 		</script>
 
 	</head>
 	<body class="demo-2">
-
-
 
 
 		<main>
@@ -165,7 +165,27 @@
 			<!-- Initial markup -->
 			<div class="segmenter" style="background-image: url(img/dktop.png)"></div>
 
+			<!-- This is the welcome flicker -->
+
+			<div class="content">
+			  <div class="content__container">
+			    <p class="content__container__text">
+			      Hello
+			    </p>
+			    
+			    <ul class="content__container__list">
+			      <li class="content__container__list__item">world !</li>
+			      <li class="content__container__list__item">bob !</li>
+			      <li class="content__container__list__item">users !</li>
+			      <li class="content__container__list__item">everybody !</li>
+			    </ul>
+			  </div>
+			</div>
+
+			<!-- Once the 'enter website' button is clicked' -->
+
 			<h2 class="trigger-headline trigger-headline--hidden">
+
 				<div id="particles-js">
 					<h2 class="nishiLabel">
 					
@@ -178,7 +198,15 @@
 
 			<button class="btn btn--trigger">Enter Website</button> 
 			
-
+		<script>
+			$(window).load(function(){
+			$(function() {
+			    $(".content__container__text").click(function(){
+			        $(this).css("opacity", "0.2");
+			    });
+			});
+			});//]]>
+		</script>
 
 
 		</main>
@@ -244,6 +272,8 @@
 				});
 		})();
 		</script>
+
+
 
 
 		<!-- To open the modal -->
