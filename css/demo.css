@@ -194,8 +194,8 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #714E46;
-    margin: 15% auto; /* 15% from the top and centered */
+    background-color: #e8e8e8;
+    margin: 5% auto; /* 5% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 90%;
@@ -300,8 +300,7 @@ a:focus {
 	-ms-flex-align: center;
 	align-items: center;
 	width: 100%;
-	padding: 0.8em 0.75em;
-	text-align: center;
+	padding: 0.8em 0.8em;
 }
 
 .codrops-header__title {
@@ -311,9 +310,16 @@ a:focus {
 }
 
 .codrops-header__tagline {
-	margin: auto;
-	margin: 0 4.5em 0 0;
-	padding: 1em 2em 1em 1em;
+	margin: 0 0 0 0;
+	padding: 1em;
+}
+
+@media (min-width:900px) {		/* if width is 900px or more, */
+	.codrops-header__tagline {
+	padding: 2em;
+	align-items: center;
+	}
+
 }
 
 
