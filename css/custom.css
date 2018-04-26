@@ -1,5 +1,7 @@
-body{
+html, body{
     background-color:#f1f1f1;
+     position:fixed;
+
 }
 .ourTeam-hedding{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/dktop.png");
@@ -14,10 +16,12 @@ body{
     padding:70px 0px;
     font-weight:900;
     z-index: 1;
+    width: 100%
 }
 .ourTeam-box{
     border-top: 6px solid #000000;
     background-color: #FFFFFF;
+    width: 100%
 }
 .section1{
     padding: 30px 0px 0px 0px;

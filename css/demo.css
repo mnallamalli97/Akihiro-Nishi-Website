@@ -197,11 +197,11 @@ body {
 /* Modal Content/Box */
 .modal-content {
     background-color: #e8e8e8;
-    margin: 5% auto; /* 5% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 90%;
-    height: 500px;
+    margin: 2% auto; /* 5% from the top and centered */
+    padding: 3px;
+    border: 1px solid #fff;
+    width: 95%;
+    height: 100%;
     overflow:auto;
 }
 
@@ -211,6 +211,7 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    background-color: white;
 }
 
 .close:hover,

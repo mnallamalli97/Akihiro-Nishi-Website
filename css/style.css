@@ -53,7 +53,9 @@ body {
   display: inline;
   float: left;
   margin: 0;
-
+  line-height: 40px;
+  font-size: 32px;
+  color: white;
   opacity: 1.0;
   transition: opacity 2s linear;
   -webkit-transition: opacity 0.5s linear;
@@ -65,7 +67,7 @@ body {
 }
 .content__container__list {
   margin-top: 0;
-  padding-left: 330px;
+  padding-left: 320px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -78,7 +80,7 @@ body {
 }
 .content__container__list__item {
   line-height: 40px;
-  width: 300px;
+  width: 340px;
   margin: 0;
 }
 
