@@ -7,7 +7,7 @@ body {
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -41,7 +41,7 @@ body {
   top: 0;
   color: #16a085;
   font-size: 42px;
-  line-height: 40px;
+  line-height: 50px;
   -webkit-animation-name: opacity;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -50,7 +50,7 @@ body {
   animation-iteration-count: infinite;
 }
 .content__container__text {
-  display: block;
+  display: inline;
   float: left;
   margin: 0;
 
@@ -65,7 +65,7 @@ body {
 }
 .content__container__list {
   margin-top: 0;
-  padding-left: 110px;
+  padding-left: 330px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -78,6 +78,7 @@ body {
 }
 .content__container__list__item {
   line-height: 40px;
+  width: 300px;
   margin: 0;
 }
 

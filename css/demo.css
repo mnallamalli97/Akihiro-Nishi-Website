@@ -99,6 +99,8 @@ body {
 .openmodal{
 	color: red;
 	border-color: #C6AF6D;
+	margin: 0 auto;
+	position: relative;
 }
 
 
@@ -311,16 +313,9 @@ a:focus {
 
 .codrops-header__tagline {
 	margin: 0 0 0 0;
-	padding: 1em;
+	padding: 1em 1em 1em 1em;
 }
 
-@media (min-width:900px) {		/* if width is 900px or more, */
-	.codrops-header__tagline {
-	padding: 2em;
-	align-items: center;
-	}
-
-}
 
 
 /* Bottom nav */

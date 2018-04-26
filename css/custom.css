@@ -2,7 +2,7 @@ body{
     background-color:#f1f1f1;
 }
 .ourTeam-hedding{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/hands-joined-by-the-team_1150-100.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/dktop.png");
     height:200px;
     width:100%;
     background-size:100% 100%;
@@ -16,14 +16,14 @@ body{
     z-index: 1;
 }
 .ourTeam-box{
-    border-top: 6px solid #5DDDD3;
+    border-top: 6px solid #000000;
     background-color: #FFFFFF;
 }
 .section1{
     padding: 30px 0px 0px 0px;
 }
 .section1 img{
-    border:5px solid #5DDDD3;
+    border:5px solid #000000;
     padding:5px;
     border-radius:50%;
     height:170px;
@@ -33,18 +33,18 @@ body{
     font-size:20px;
     color:#C1C1C1;
     margin:0px;
-    border-bottom:2px solid #5DDDD3;
+    border-bottom:2px solid #000000;
     display: inline-block;
     padding: 10px 0px;
 }
 .section2 p{
-    background-color: #5DDDD3;
+    background-color: #000000;
     display: inline-block;
     font-weight: bold;
     color:#fff;
     padding: 5px 15px;
     border-radius: 3px;
-    margin-top: -20px;    
+    margin-top: 10px;    
 }
 .section2 span{
     color:#979597;
@@ -74,36 +74,36 @@ body{
     cursor: pointer;
 }
 .section-info{
-    border-top:6px solid #90DFAA;
+    border-top:6px solid #C6AF6D;
 }
 .section-danger{
-    border-top:6px solid #FD8469;
+    border-top:6px solid #000000;
 }
 .section-info .section1 img{
-    border:5px solid #90DFAA;
+    border:5px solid #C6AF6D;
     padding:5px;
 }
 .section-info .section2 p{
-    background-color: #90DFAA;
+    background-color: #C6AF6D;
     color:#fff;
 }
 .section-danger .section2 p{
-    background-color: #FD8469;
+    background-color: #000000;
     color:#fff;
 }
 .section-danger .section1 img{
-    border:5px solid #FD8469;
+    border:5px solid #000000;
     padding:5px;
 }
 .section-info .section4 i{
-    background-color: #90DFAA;  
+    background-color: #C6AF6D;  
 }
 .section-danger .section4 i{
-    background-color: #FD8469;  
+    background-color: #000000;  
 }
 .section-info .section2 h1{
-    border-bottom:2px solid #90DFAA;
+    border-bottom:2px solid #C6AF6D;
 }
 .section-danger .section2 h1{
-    border-bottom:2px solid #FD8469;
+    border-bottom:2px solid #000000;
 }
