@@ -84,6 +84,19 @@ tr td {
 	pointer-events: none;
 }
 
+#webPlug {
+	position: absolute;
+	color: #666;
+	bottom: 0;
+	padding-bottom: 56px;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
+
+
 .btn:focus {
 	outline: none;
 }
