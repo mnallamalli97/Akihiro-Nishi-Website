@@ -55,7 +55,7 @@ body {
   margin: 0;
   line-height: 40px;
   font-size: 32px;
-  color: white;
+  color: black;
   opacity: 1.0;
   transition: opacity 2s linear;
   -webkit-transition: opacity 0.5s linear;
@@ -67,7 +67,7 @@ body {
 }
 .content__container__list {
   margin-top: 0;
-  padding-left: 320px;
+  padding-left: 420px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -80,8 +80,9 @@ body {
 }
 .content__container__list__item {
   line-height: 40px;
-  width: 340px;
+  width: 300px;
   margin: 0;
+  color: black;
 }
 
 @-webkit-keyframes opacity {
