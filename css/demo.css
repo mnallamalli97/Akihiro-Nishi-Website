@@ -96,6 +96,16 @@ tr td {
 	pointer-events: none;
 }
 
+.research-content{
+	text-align: center;
+	padding-top: 150px; 
+}
+
+.social-images{
+	text-align: center;
+	padding-right: 35px;
+}
+
 
 .btn:focus {
 	outline: none;
@@ -158,9 +168,6 @@ tr td {
   margin:0.4em auto;
  }
 }
-
-
-
 
 
 .button:hover {
@@ -329,6 +336,7 @@ a:focus {
 	align-items: center;
 	width: 100%;
 	padding: 0.8em 0.8em;
+	text-align: center;
 }
 
 .codrops-header__title {
