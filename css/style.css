@@ -88,9 +88,11 @@ body {
   animation-duration: 9s;
   display: block;
   animation-iteration-count: infinite;
+  font-size: 36px;
 }
 .content__container__list__item {
   line-height: 40px;
+  font-size: 36px;
   width: 300px;
   margin: 0;
   color: black;
