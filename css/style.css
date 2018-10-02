@@ -66,7 +66,7 @@ body {
   display: inline;
   float: left;
   margin: 0;
-  line-height: 40px;
+  line-height: 42px;
   font-size: 32px;
   color: black;
   opacity: 1.0;
@@ -80,7 +80,7 @@ body {
 }
 .content__container__list {
   margin-top: 0;
-  padding-left: 420px;
+  padding-left: 407px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -95,7 +95,7 @@ body {
 .content__container__list__item {
   line-height: 40px;
   font-size: 32px;
-  width: 300px;
+  width: 280px;
   margin: 0;
   color: black;
 }
