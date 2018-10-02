@@ -31,13 +31,15 @@ body {
   padding: 0 40px;
 }
 .content__container:before {
-  content: '▽';
+  content: '▻';
+  padding-top: 2px;
+  padding-right: 10px;
   left: 0;
   margin-top: 100px;
-  background-color: transparent;
+  background-color: transparent;  
 }
 .content__container:after {
-  content: '▽';
+  content: '◅';
   position: absolute;
   right: 0;
   margin-top: 100px;
@@ -92,7 +94,7 @@ body {
 }
 .content__container__list__item {
   line-height: 40px;
-  font-size: 36px;
+  font-size: 32px;
   width: 300px;
   margin: 0;
   color: black;
